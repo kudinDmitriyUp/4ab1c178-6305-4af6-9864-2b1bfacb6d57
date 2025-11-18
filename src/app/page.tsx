@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -10,7 +10,7 @@ import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Calendar, Car, Crown, MessageCircle, Shield, Star } from "lucide-react";
+import { Calendar, Car, Crown, MessageCircle, Shield, Star, Instagram, Facebook, Twitter } from "lucide-react";
 
 export default function Home() {
   return (
@@ -267,9 +267,9 @@ export default function Home() {
             }
           ]}
           socialLinks={[
-            { icon: "Instagram", href: "https://instagram.com", ariaLabel: "Instagram" },
-            { icon: "Facebook", href: "https://facebook.com", ariaLabel: "Facebook" },
-            { icon: "Twitter", href: "https://twitter.com", ariaLabel: "Twitter" }
+            { icon: Instagram, href: "https://instagram.com", ariaLabel: "Instagram" },
+            { icon: Facebook, href: "https://facebook.com", ariaLabel: "Facebook" },
+            { icon: Twitter, href: "https://twitter.com", ariaLabel: "Twitter" }
           ]}
         />
       </div>
